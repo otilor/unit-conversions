@@ -14,4 +14,12 @@ class WeightTest extends TestCase
 
         $this->assertEquals(220.4623, $lbs);
     }
+
+    /** @test*/
+    public function it_can_convert_kilograms_to_tonnes()
+    {
+        $tonnes = Weight::fromKilograms(100)->toTonnes();
+
+        $this->assertEquals(0.1, $tonnes);
+    }
 }

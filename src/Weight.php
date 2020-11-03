@@ -20,4 +20,9 @@ class Weight
     {
         return $this->kilograms * 2.204623;
     }
+
+    public function toTonnes(): float
+    {
+        return $this->kilograms * 0.001;
+    }
 }
