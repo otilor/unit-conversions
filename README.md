@@ -19,8 +19,8 @@ composer require gabrielfemi/unit-conversions
 ## Usage
 
 ``` php
-$skeleton = new Gabrielfemi\UnitConversions();
-echo $skeleton->echoPhrase('Hello, Gabrielfemi!');
+$lbs = Weight::fromKilograms(100)->toLbs();
+echo $lbs;
 ```
 
 ## Testing
