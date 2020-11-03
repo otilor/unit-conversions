@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "gabrielfemi/unit-conversions",
+    "description": "A package that converts from a unit to the other.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "gabrielfemi",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/gabrielfemi/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Gabriel Akinyosoye",
+            "email": "gabrielfemi799@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Gabrielfemi\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Gabrielfemi\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
